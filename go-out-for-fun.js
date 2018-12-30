@@ -35,3 +35,8 @@ for (i = 1; i <= 4; i++) {
     }
 }
 
+/* for the input field */
+function myFunction() {
+    var x = document.getElementById('myText').value;
+    document.getElementById('demo').innerHTML = x;
+}
