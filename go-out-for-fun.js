@@ -16,16 +16,22 @@ else
 
 for (i = 1; i <= 4; i++) {
     Check = prompt('Enter Password');
-    if (i==4) {
-        window.close();
-    }
     if (Check != 'Tidi') {
-        alert('Try Again');
+        if (i == 4) {
+            window.close();
+        }
+        else {
+            if (i == 3) {
+                alert('Last Chance');
+            }
+            else {
+                alert('Try Again');
+            }
+        }
     }
     else {
-        alert('well done');
+        alert('Well Done');
         break;
     }
-    
-    }
+}
 
