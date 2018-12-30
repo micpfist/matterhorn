@@ -3,3 +3,6 @@ h1 {
     font-size: 100px;
     color: red;
 }
+.button-space {
+    margin:30px 0;
+}
